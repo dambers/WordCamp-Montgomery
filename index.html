@@ -13,6 +13,10 @@
   </head>
   <body>
     <!-- navbar -->
+     <div id= home="scroll" data-target=".navbar">
+     </div>
+
+
 <!-- /navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
@@ -60,6 +64,27 @@
           <p>The beautiful city of Montgomery, AL will be the host city for WordCamp!</p>
           <p>Explore the future of WordPress with a lineup of industry professionals. Discover new techniques to advance your career as a web designer.</p>
         </div>
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
         <!-- speakers -->
        <h1 class="display-4 text-center my-5 text-muted">Speakers</h1>
        [Speakers bios go here]
@@ -133,19 +158,106 @@
           3 of 3: Topics
           <h3 class="mb-4">What You'll Learn</h3>
 
-        <ul>
-          <li><strong>WordPress 5</strong>: New England editor</li>
-          <li><strong>WooCommerce</strong>: E-commerce platform</li>
-          <li><strong>Hosting</strong>: Managed web hosting</li>
-          <li><strong>Themes</strong>: Creating your theme</li>
-          <li><strong>Plugins</strong>: Develop your plugin</li>
-          <li><strong>Content</strong>: Writing and podcasts</li>
-        </ul>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action"><strong>WordPress 5</strong>: New Gutenberg editor</a>
+            <a href="#" class="list-group-item list-group-item-action"><strong>WooCommerce</strong>: E-commerce platform</a>
+            <a href="#" class="list-group-item list-group-item-action"><strong>Hosting</strong>: Managed web hosting</a>
+            <a href="#" class="list-group-item list-group-item-action"><strong>Themes</strong>: Creating your theme</a>
+            <a href="#" class="list-group-item list-group-item-action"><strong>Plugins</strong>: Develop your plugin</a>
+            <a href="#" class="list-group-item list-group-item-action"><strong>Content</strong>: Writing and podcasts</a>
+          </div>
         </div>
       </div>
       <!-- /about -->
     </div>
+    <!-- speakers -->
+<h2 id="Head Liners" class="display-4 text-center my-5 text-muted">Head Liners</h2>
 
+<div class="col-md-6 col-lg-4">
+  <img class="card-img-top" src="pics/game1.jpg" alt="Game Boy">
+  <div class="card-body">
+    <h4 class="card-title">Game Boy</h4>
+    <p class="card-text">The Beginning.</p>
+  </div>
+</div>
+<div class="col-md-6 col-lg-4">
+  <img class="card-img-top" src="pics/game2.jpg" alt="Game Boy">
+  <div class="card-body">
+    <h4 class="card-title">Game Boy Advance</h4>
+    <p class="card-text">Mid Way.</p>
+  </div>
+  <div class="col-md-6 col-lg-4">
+    <img class="card-img-top" src="pics/game3.jpg" alt="Game Boy">
+    <div class="card-body">
+      <h4 class="card-title">Rocky</h4>
+      <p class="card-text">Boxing.</p>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <img class="card-img-top" src="pics/game4.jpg" alt="Game Boy">
+      <div class="card-body">
+        <h4 class="card-title">Vegeta</h4>
+        <p class="card-text">Anime.</p>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <img class="card-img-top" src="pics/game5.jpg" alt="Game Boy">
+        <div class="card-body">
+          <h4 class="card-title">Fast Tokyo</h4>
+          <p class="card-text">Drifting.</p>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <img class="card-img-top" src="pics/game6.jpg" alt="Game Boy">
+          <div class="card-body">
+            <h4 class="card-title">NES</h4>
+            <p class="card-text">The Beginning again.</p>
+          </div>
+</div>
+<!-- /speakers -->
+
+!-- schedule -->
+<h2 id= "schedule" class="display-4 text-center my-5 text-muted">Schedule</h2>
+<ul class="list-group">
+<li class="list-group-item">
+<div class="d-flex justify-content-between">
+  <h5 class="mb-1">Keynote Speaker</h5>
+  <span class="badge badge-pill badge-secondary p-2">9:00am</span>
+</div>
+<p class="mb-1">First gen header</p>
+</li>
+</ul>
+
+<h2 id="schedule" class="display-4 text-center my-5 text-muted">Schedule</h2>
+<ul class="list-group">
+<li class="list-group-item">
+<div class="d-flex justify-content-between">
+  <h5 class="mb-1">Rocky</h5>
+  <span class="badge badge-pill badge-secondary p-2">10:00am</span>
+</div>
+<p class="mb-1">Fight Movies</p>
+</li>
+</ul>
+
+<h2 id="schedule" class="display-4 text-center my-5 text-muted">Schedule</h2>
+<ul class="list-group">
+<li class="list-group-item">
+<div class="d-flex justify-content-between">
+  <h5 class="mb-1">Lunch</h5>
+  <span class="badge badge-pill badge-secondary p-2">12:00am</span>
+</div>
+<p class="mb-1">Bill Miller's and Chick Fila</p>
+</li>
+</ul>
+
+<h2 id="schedule" class="display-4 text-center my-5 text-muted">Schedule</h2>
+<ul class="list-group">
+<li class="list-group-item">
+<div class="d-flex justify-content-between">
+  <h5 class="mb-1">Fast Stunt Man</h5>
+  <span class="badge badge-pill badge-secondary p-2">1:30pm</span>
+</div>
+<p class="mb-1">Go Fast</p>
+</li>
+</ul>
+<!-- /schedule -->
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     <a class="dropdown-item" href="#">Action</a>
     <a class="dropdown-item" href="#">Another action</a>
