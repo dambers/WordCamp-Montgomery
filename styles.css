@@ -10,13 +10,7 @@ body {
   max-width: 960px;
   padding: 40px 10px;
 }
-body {
-  background-image: url("pics/auburn.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  margin-right: 100px;
-  background-attachment: fixed;
-}
+
 
 /* Heading Styles */
 h1 {
@@ -29,7 +23,11 @@ h2 {
   color: #fff;
   text-align: center;
 }
-
+h3 {
+  font-size: 60px;
+  color: #ff8300;
+  text-align: center;
+}
 
 #example1 {
   border: 2px solid black;
